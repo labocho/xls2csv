@@ -5,13 +5,11 @@ GEM
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
       thread_safe (~> 0.3, >= 0.3.1)
-    coderay (1.1.2)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     equalizer (0.0.11)
-    ffi (1.9.25-java)
     ice_nine (0.11.2)
     jar-dependencies (0.3.12)
     jbundler (0.9.3)
@@ -23,18 +21,11 @@ GEM
     jruby-rack (1.1.21)
     maven-tools (1.1.6)
       virtus (~> 1.0)
-    method_source (0.9.0)
-    pry (0.11.3-java)
-      coderay (~> 1.1.0)
-      method_source (~> 0.9.0)
-      spoon (~> 0.0)
-    rake (10.4.2)
+    rake (12.3.1)
     ruby-maven (3.3.12)
       ruby-maven-libs (~> 3.3.9)
     ruby-maven-libs (3.3.9)
     rubyzip (1.2.1)
-    spoon (0.0.6)
-      ffi
     thread_safe (0.3.6-java)
     virtus (1.0.5)
       axiom-types (~> 0.1)
@@ -52,7 +43,6 @@ PLATFORMS
 
 DEPENDENCIES
   jbundler
-  pry
   rake
   warbler
 
