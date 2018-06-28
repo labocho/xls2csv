@@ -19,6 +19,8 @@ GEM
       jar-dependencies (~> 0.3)
       maven-tools (~> 1.1)
       ruby-maven (~> 3.3, >= 3.3.8)
+    jruby-jars (9.2.0.0)
+    jruby-rack (1.1.21)
     maven-tools (1.1.6)
       virtus (~> 1.0)
     method_source (0.9.0)
@@ -26,9 +28,11 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
       spoon (~> 0.0)
+    rake (10.4.2)
     ruby-maven (3.3.12)
       ruby-maven-libs (~> 3.3.9)
     ruby-maven-libs (3.3.9)
+    rubyzip (1.2.1)
     spoon (0.0.6)
       ffi
     thread_safe (0.3.6-java)
@@ -37,6 +41,11 @@ GEM
       coercible (~> 1.0)
       descendants_tracker (~> 0.0, >= 0.0.3)
       equalizer (~> 0.0, >= 0.0.9)
+    warbler (2.0.5)
+      jruby-jars (>= 9.0.0.0)
+      jruby-rack (>= 1.1.1, < 1.3)
+      rake (>= 10.1.0)
+      rubyzip (~> 1.0, < 1.4)
 
 PLATFORMS
   java
@@ -44,6 +53,8 @@ PLATFORMS
 DEPENDENCIES
   jbundler
   pry
+  rake
+  warbler
 
 BUNDLED WITH
    1.16.2
