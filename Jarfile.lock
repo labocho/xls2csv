@@ -1,0 +1,7 @@
+---
+:runtime:
+- org.yaml:snakeyaml:jar:1.18
+- org.apache.poi:poi:jar:3.17
+- jline:jline:jar:2.11
+- org.apache.commons:commons-collections4:jar:4.1
+- commons-codec:commons-codec:jar:1.10
